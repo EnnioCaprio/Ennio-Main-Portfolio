@@ -4,12 +4,10 @@ import ScrollReveal from 'scrollreveal';
 const Project = () => {
     useEffect(() => {
         ScrollReveal().reveal('.container-project__center__single', {
-            reset: true,
             duration: 500,
             origin: 'left',
             distance: '100px',
             delay: 500,
-            opacity: 0
         })
     });
     return(
@@ -47,7 +45,7 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="container-project__center__single">
-                    <div className="container-project__center__single__photo__two"><a href="https://www.google.it/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
+                    <div className="container-project__center__single__photo__two"><a href="https://chat-application-live.herokuapp.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
                     <div className="container-project__center__single__description">
                         <div className="container-project__description">
                             <div className="container-project__description__title">
@@ -67,14 +65,14 @@ const Project = () => {
                         </div>
                         <div className="container-project__social">
                             <ul className="container-project__social__list">
-                                <li className="container-project__social__link"><a>GitHub</a></li>
-                                <li className="container-project__social__link"><a>Heroku</a></li>
+                                <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/Chat-Application-Live" target="_blank">GitHub</a></li>
+                                <li className="container-project__social__link"><a href="https://chat-application-live.herokuapp.com/" target="_blank">Heroku</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="container-project__center__single">
-                    <div className="container-project__center__single__photo__three"><a href="https://www.google.it/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
+                    <div className="container-project__center__single__photo__three"><a href="https://graphql-users-application.herokuapp.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
                     <div className="container-project__center__single__description">
                         <div className="container-project__description">
                             <div className="container-project__description__title">
@@ -95,8 +93,8 @@ const Project = () => {
                         </div>
                         <div className="container-project__social">
                             <ul className="container-project__social__list">
-                                <li className="container-project__social__link"><a>GitHub</a></li>
-                                <li className="container-project__social__link"><a>Heroku</a></li>
+                                <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/GraphQL-Application" target="_blank">GitHub</a></li>
+                                <li className="container-project__social__link"><a href="https://graphql-users-application.herokuapp.com/" target="_blank">Heroku</a></li>
                             </ul>
                         </div>
                     </div>

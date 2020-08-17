@@ -9,11 +9,11 @@ const Presentation = () => {
         ScrollReveal().reveal('.container-presentation', {
             delay: 500,
             duration: 500,
-            reset: true,
             origin: 'left',
             distance: '100px' 
         })
     }, [])
+    
     return(
         <div className="container-content">
             <MainHeader />

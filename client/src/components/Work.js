@@ -4,7 +4,6 @@ import ScrollReveal from 'scrollreveal';
 const Work = () => {
     useEffect(() => {
         ScrollReveal().reveal('.container-work__centered', {
-            reset: true,
             duration: 500,
             origin: 'right',
             distance: '100px',
