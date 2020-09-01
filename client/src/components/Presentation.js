@@ -38,7 +38,9 @@ const Presentation = () => {
                     </div>
                     <div className="container-presentation__description__two">
                         <div className="container-presentation__description__two__content">
-                            <button>Go to projects</button>
+                            <button onClick={() =>{
+                                window.scrollTo(0, 1000)
+                            }}>Go to projects</button>
                         </div>
                     </div>
                 </div>
