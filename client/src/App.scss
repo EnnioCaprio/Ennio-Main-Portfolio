@@ -178,6 +178,8 @@ html, body{
   background-color: darken(#252734, 10%);
   padding: 1rem;
   border-radius: 10px;
+  margin: 3rem 0;
+  overflow: auto;
 }
 
 .container-work__centered__info{
@@ -190,6 +192,9 @@ html, body{
   padding: 0;
   list-style-type: none;
   li{
+    p{
+      margin: 0;
+    }
     line-height: 2rem;
     font-weight: 100;
   }
@@ -199,8 +204,9 @@ html, body{
 
 .container-project{
   background-color: #333646;
-  min-height: 1200px;
+  min-height: 400px;
   position: relative;
+  overflow: auto;
 }
 
 .container-project__title{
@@ -219,6 +225,7 @@ html, body{
   display: grid;
   grid-template-columns: 1fr;
   gap: 3rem 0;
+  margin-bottom: 4rem;
 }
 
 .container-project__center__single{
@@ -288,7 +295,7 @@ html, body{
 }
 
 .container-project__center__single__photo__one{
-  background-image: url('./background-images/Ecommerce-App.png');
+  background-image: url('./background-images/Reddit-Clone.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,13 +303,6 @@ html, body{
 
 .container-project__center__single__photo__two{
   background-image: url('./background-images/Chat-App.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container-project__center__single__photo__three{
-  background-image: url('./background-images/GraphQL-App.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,7 +339,7 @@ html, body{
   }
 
   .container-work{
-    height: 600px;
+    min-height: 400px;
   }
 
   .container-project__center{

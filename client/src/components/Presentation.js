@@ -33,7 +33,6 @@ const Presentation = () => {
                         <div className="container-presentation__description__one__content">
                             <h4>- Introduction</h4>
                             <h2>Software Developer based in Italy, Naples</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ante sapien, dapibus sit amet cursus vel, vestibulum nec nisi.</p>
                         </div>
                     </div>
                     <div className="container-presentation__description__two">
