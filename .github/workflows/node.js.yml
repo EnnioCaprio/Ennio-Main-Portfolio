@@ -17,8 +17,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        npm install
+        npm i
         cd client
-        npm install
+        npm i
         cd ..
         docker-compose up -d
