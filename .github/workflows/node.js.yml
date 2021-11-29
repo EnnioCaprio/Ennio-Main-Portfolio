@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
-    - name: Usee Node.js ${{ matrix.node-version }}
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
