@@ -7,7 +7,7 @@ const Project = () => {
             duration: 500,
             origin: 'left',
             distance: '100px',
-            delay: 500,
+            delay: 500
         })
     });
     return(
@@ -17,8 +17,39 @@ const Project = () => {
                 <h3>Under here all the projects</h3>
             </div>
             <div className="container-project__center">
+            <div className="container-project__center__single">
+                    <div className="container-project__center__single__photo__three"><a href="https://chatapp.myportfolio-ennio.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
+                    <div className="container-project__center__single__description">
+                        <div className="container-project__description">
+                            <div className="container-project__description__title">
+                                <h1>Charges Application</h1>
+                            </div>
+                            <div className="container-project__description__content">
+                                <p>
+                                    Charges Application is an application created to facilitate employee organization hours.
+                                    I used ReactJS (Redux) and Node as the main stack (Express/GraphQL for backend/API and Knex for database queries).
+                                    Employees can register as they want and can add their weekly work hours inside the system.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="container-project__technologies">
+                            <ul className="container-project__technologies__list">
+                                <li>React</li>
+                                <li>Express</li>
+                                <li>GraphQL</li>
+                                <li>Postgresql</li>
+                            </ul>
+                        </div>
+                        <div className="container-project__social">
+                            <ul className="container-project__social__list">
+                                <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/Chat-Application-Live" target="_blank">GitHub</a></li>
+                                <li className="container-project__social__link"><a href="https://chatapp.myportfolio-ennio.com/" target="_blank">Application</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div className="container-project__center__single">
-                    <div className="container-project__center__single__photo__one"><a href="https://redditclone.myportfolio-ennio.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
+                    <div className="container-project__center__single__photo__one"><a href="https://redditclone.ennioportfolio.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
                     <div className="container-project__center__single__description">
                         <div className="container-project__description">
                             <div className="container-project__description__title">
@@ -40,14 +71,14 @@ const Project = () => {
                         </div>
                         <div className="container-project__social">
                             <ul className="container-project__social__list">
-                                <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/Reddit-Clone-Application" target="_blank">GitHub</a></li>
-                                <li className="container-project__social__link"><a href="https://redditclone.myportfolio-ennio.com/" target="_blank">Application</a></li>
+                                <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/Reddit-Clone" target="_blank">GitHub</a></li>
+                                <li className="container-project__social__link"><a href="https://redditclone.ennioportfolio.com/" target="_blank">Application</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="container-project__center__single">
-                    <div className="container-project__center__single__photo__two"><a href="https://chatapp.myportfolio-ennio.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
+                    <div className="container-project__center__single__photo__two"><a href="https://chatapp.ennioportfolio.com/" target="_blank" target="noopener noreferrer"><div className="overlay-image"></div></a></div>
                     <div className="container-project__center__single__description">
                         <div className="container-project__description">
                             <div className="container-project__description__title">
@@ -72,7 +103,7 @@ const Project = () => {
                         <div className="container-project__social">
                             <ul className="container-project__social__list">
                                 <li className="container-project__social__link"><a href="https://github.com/EnnioCaprio/Chat-Application-Live" target="_blank">GitHub</a></li>
-                                <li className="container-project__social__link"><a href="https://chatapp.myportfolio-ennio.com/" target="_blank">Application</a></li>
+                                <li className="container-project__social__link"><a href="https://chatapp.ennioportfolio.com/" target="_blank">Application</a></li>
                             </ul>
                         </div>
                     </div>

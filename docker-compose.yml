@@ -17,16 +17,25 @@ services:
       context: ./client
       dockerfile: Dockerfile
     stdin_open: true
-    #ports:
-    #  - '3000:3000'
+    ports:
+      - '3000:3000'
     restart: on-failure
   express-server-main:
     build: 
       context: .
       dockerfile: Dockerfile
-    ports: 
+    volumes:
+      - ./nginx/certbot/conf:/etc/letsencrypt
+      - ./nginx/certbot/www:/var/www/certbot
+    ports:
       - '5000:5000'
     restart: on-failure
+  #certbot:
+  #  image: certbot/certbot
+  #  restart: unless-stopped
+  #  volumes:
+  #    - ./nginx/certbot/conf:/etc/letsencrypt
+  #    - ./nginx/certbot/www:/var/www/certbot
     
 networks:
   default:

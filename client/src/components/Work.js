@@ -48,7 +48,7 @@ const Work = () => {
                                         The databases that I prefer to use are PostgreSQL and MongoDB
                                     </li>
                                     <li>
-                                        For deployment, I use docker for containerization process and AWS for hosting my apps.
+                                        For deployment, I use docker for containerization process and DigitalOcean for hosting my apps.
                                     </li>
                                 </ul>
                             </li>
